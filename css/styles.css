@@ -6,6 +6,7 @@ body{
 #title{
     background-color: #ff4c68;
     color: white; 
+    text-align: left;
     /* height: 55rem; */
 }
 .container-fluid{
@@ -21,7 +22,7 @@ h1{
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 h2{
     font-family: "Montserrat";
@@ -51,13 +52,10 @@ h3{
 /* Title Image */
 
 .title-image{
+    width: 60%;
     position: absolute;
     right: 25%;
-    margin-left: 3rem;
-    -webkit-transform: rotate(25deg);
-    -moz-transform: rotate(25deg);
-    -ms-transform: rotate(25deg);
-    -o-transform: rotate(25deg);
+
     transform: rotate(25deg);
 }
 
@@ -65,7 +63,7 @@ h3{
 
 .download-button{
     margin-right: 1rem;
-    margin-bottom: 5rem;
+
 }
 
 /* Features Section */
@@ -117,7 +115,137 @@ p{
 .pricing-column{
     padding: 3% 2%;
 }
-@media  (max-width: 600px) {
+
+
+/* Call to actiom */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 6% 16% 10%;
+}
+.cta-title{
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 80px;
+}
+.cta-button{
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+    
+
+/* Footer Section */
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 10% 16% 10%;
+}
+
+.cta-icon{
+    font-size: 1rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1028px ) {
+
+    #title{
+        text-align: center;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .title-image{
+        position: relative;
+        transform: rotate(0deg);
+        right: auto;
+    }
+    .download-button{
+        margin-bottom: 1rem;
+    }
+
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        right: 0;
+    }
 
     .container-fluid{
         padding-left: 2%;
@@ -127,7 +255,7 @@ p{
 
     .feature-box{
         padding-bottom: 5rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .feature-icons{
@@ -135,8 +263,9 @@ p{
         font-size: 9rem;
         padding-bottom: 2rem;
         transition: color 0.5s;
- }
+ } */
 
 
 
-}
+
+
